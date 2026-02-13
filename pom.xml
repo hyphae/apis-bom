@@ -3,7 +3,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <vertx.version>4.4.6</vertx.version>
+    <vertx.version>5.0.7</vertx.version>
     <junit.version>4.12</junit.version>
     <commons-io.version>2.4</commons-io.version>
   </properties>
