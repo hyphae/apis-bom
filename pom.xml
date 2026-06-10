@@ -10,18 +10,13 @@
 
   <groupId>jp.co.sony.csl.dcoes.apis</groupId>
   <artifactId>apis-bom</artifactId>
-  <version>3.4.1</version>
+  <version>3.9.14</version>
   <packaging>pom</packaging>
 
   <name>APIS BOM</name>
 
   <dependencyManagement>
     <dependencies>
-      <dependency>
-        <groupId>jp.co.sony.csl.dcoes.apis</groupId>
-        <artifactId>apis-common</artifactId>
-        <version>${project.version}</version>
-      </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-core</artifactId>
