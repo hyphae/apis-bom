@@ -19,6 +19,13 @@
 
   <dependencyManagement>
     <dependencies>
+      <!-- this is not a circular dependency, this is to centralise the version management for all external
+       and internal dependencies -->
+      <dependency>
+        <groupId>jp.co.sony.csl.dcoes.apis</groupId>
+        <artifactId>apis-common</artifactId>
+        <version>${project.version}</version>
+      </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-core</artifactId>
